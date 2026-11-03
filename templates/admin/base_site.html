@@ -1,0 +1,11 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block branding %}
+  <h1 id="site-name">
+    <a href="{% url 'admin:index' %}">
+      <img src="{% static 'images/logo.png' %}" alt="Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+      <span>Morphe Records</span>
+    </a>
+  </h1>
+{% endblock %}
