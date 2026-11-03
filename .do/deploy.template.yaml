@@ -8,7 +8,7 @@ spec:
       environment_slug: python
       git:
         branch: master
-        repo_clone_url: https://github.com/matijakolaric-com/django-music-publisher.git
+        repo_clone_url: https://github.com/MorpheRecords/django-music-publisher.git
       build_command: python manage.py collectstatic --noinput
       run_command: waitress-serve --port=$PORT dmp_project.wsgi:application
       http_port: 8080
